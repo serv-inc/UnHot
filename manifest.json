@@ -1,0 +1,17 @@
+{
+  // Required
+    "manifest_version": 2,
+    "name": "UnHot",
+    "version": "0.0.2",
+    
+    "description": "Hide stackexchange's hot network questions",
+
+    "content_scripts": [ {
+	"matches": ["*://*.askubuntu.com/*",
+                    "*://*.superuser.com/*",
+                    "*://*.stackexchange.com/*",
+		    "*://*.superuser.com/*",
+		    "*://*.serverfault.com/*"],
+	"css": ["hidehnq.css"]
+    } ]
+}
