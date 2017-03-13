@@ -1,1 +1,8 @@
-# UnHot
+* UnHot
+  Hide stackexchange's hot network questions.
+** Versions
+*** 0.0.2
+**** Added
+     askubuntu
+*** 0.0.1
+    main
