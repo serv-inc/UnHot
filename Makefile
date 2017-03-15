@@ -3,4 +3,4 @@ zip: lint
 
 lint:
 	#jshint addon/*.js
-	python -m json.tool addon/manifest.json
+	python -m json.tool addon/manifest.json > /dev/null # just show errors
