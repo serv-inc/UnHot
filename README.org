@@ -1,6 +1,9 @@
 * UnHot
   Hide stackexchange's hot network questions.
 ** Versions
+*** 0.0.4
+**** Fixed
+     had accidentally removed 0.0.1's stackoverflow.com in 0.0.2
 *** 0.0.3
 **** Added
      icon
