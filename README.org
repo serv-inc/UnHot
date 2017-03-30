@@ -1,6 +1,10 @@
 * UnHot
   Hide stackexchange's hot network questions.
 ** Versions
+*** 0.0.5
+**** Added
+     lacked some sites (thanks to https://superuser.com/questions/1157967/how-to-block-hot-network-questions-in-the-sidebar-of-stack-exchange-network, and
+https://github.com/jeremyBanks/hide-hnq/blob/master/manifest.json)
 *** 0.0.4
 **** Fixed
      had accidentally removed 0.0.1's stackoverflow.com in 0.0.2

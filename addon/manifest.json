@@ -1,18 +1,22 @@
 {
     "manifest_version": 2,
     "name": "UnHot",
-    "version": "0.0.4",
+    "version": "0.0.5",
     
     "icons": { "128": "UnHot.png" },
 
     "description": "Hide stackexchange's hot network questions",
 
     "content_scripts": [ {
-        "matches": ["*://*.askubuntu.com/*",
+        "matches": ["*://answers.onstartups.com/*",
+                    "*://*.askubuntu.com/*",
+                    "*://*.mathoverflow.com/*",
+                    "*://*.mathoverflow.net/*",
+                    "*://*.serverfault.com/*",
+                    "*://*.stackapps.com/*",
                     "*://*.stackexchange.com/*",
                     "*://*.stackoverflow.com/*",
-                    "*://*.superuser.com/*",
-                    "*://*.serverfault.com/*"],
+                    "*://*.superuser.com/*"],
         "css": ["hidehnq.css"]
     } ]
 }
